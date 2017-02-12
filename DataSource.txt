@@ -1,0 +1,9 @@
+CITY OF CHICAGO DATA PORTAL:
+https://data.cityofchicago.org/Transportation/Divvy-Trips/fg6s-gzvg
+
+SQLITE CLI IMPORT DIRECTIONS:
+.headers on
+.mode csv
+.import "/path/to/Divvy_Trips.csv" trips
+.save "/path/to/Divvy_Trips.db"
+
